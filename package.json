@@ -1,0 +1,41 @@
+{
+  "name": "gojs-react-basic",
+  "version": "1.1.0",
+  "description": "An example project demonstrating usage of GoJS and React together",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "gojs"
+  ],
+  "author": "Northwoods Software",
+  "dependencies": {
+    "gojs": "^2.3.11",
+    "gojs-react": "^1.1.2",
+    "immer": "^10.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "y-websocket": "^1.5.0",
+    "yjs": "^13.6.8"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  }
+}
